@@ -1,0 +1,248 @@
+/*头部搜索框*/
+.header .ui-search{
+    background: url(../img/ui-search.jpg) no-repeat center;
+    font-size: 14px;
+    color: #fff;
+    /*position: relative;*/
+}
+.header .ui-search .ui-search-selected{
+	width: 70px;
+	height: 38px;
+	line-height: 38px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-indent: 14px;
+}
+.header .ui-search .ui-search-list{
+    position: absolute;
+    left: 2px;
+    top: 36px;
+    width: 67px;
+    line-height: 24px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    display: none;
+}
+.header .ui-search .ui-search-list a{
+    display: block;
+    color: #a5a2a2;
+    text-align: center;
+}
+.header .ui-search .ui-search-list a:hover{
+	background-color: #ebeef5;
+}
+.header .ui-search .ui-search-input{
+	width: 208px;
+	height: 26px;
+	line-height: 26px;
+    position: absolute;
+    left: 73px;
+    top: 5px;
+    color: #a5a2a2;
+    font-size: 13px;
+}
+.header .ui-search .ui-search-submit{
+    display: block;
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+
+/*分类导航菜单*/
+.ui-menu-item{
+    height: 22px;
+    line-height: 22px;
+    padding: 8px 5px 9px 6px;
+    margin-left: 2px;
+}
+.ui-menu-item:hover{
+	background-color: #fff;
+}
+.ui-menu-item-name{
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 30px;
+    /*相对定位*/
+    position: relative;
+}
+.ui-menu-item-name:before{
+	content: ' ';
+	display: block;
+	width: 22px;
+	height: 21px;
+	/*相对于.ui-menu-item-name的绝对定位*/
+	position: absolute;
+	left: 0;
+	top: 1px;
+    background: url(../img/icon-menu.jpg) no-repeat -22px 0;
+}
+.ui-menu-item-disease{
+	float: right;
+	font-size: 12px;
+	color: #d7f3ff;
+	padding-left: 5px;
+}
+.ui-menu-item:hover .ui-menu-item-name{
+    color: #333;
+}
+.ui-menu-item:hover .ui-menu-item-name:before{
+	/*或者写成background-position: 0 0*/
+	background-position-x: 0;
+}
+.ui-menu-item:nth-child(2) .ui-menu-item-name:before{
+	background-position-y: -22px;
+}
+.ui-menu-item:nth-child(3) .ui-menu-item-name:before{
+	background-position-y: -66px;
+}
+.ui-menu-item:nth-child(4) .ui-menu-item-name:before{
+	background-position-y: -44px;
+}
+.ui-menu-item:hover .ui-menu-item-disease{
+	color: #868686;
+}
+.ui-menu-item:hover .ui-menu-item-detail{
+	display: block;
+}
+.ui-menu-item-detail{
+	display: none;
+	background: url(../img/bg-menu.jpg) no-repeat center;
+	width: 500px;
+	height: 393px;
+    padding: 20px 10px 10px 29px;
+    position: absolute;
+    left: 190px;
+    top: 0;
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+.ui-menu-item-detail .detail-group{
+    padding-bottom: 20px;
+    text-align: left;
+}
+.ui-menu-item-detail .detail-group .group-capition{
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	color: #666;
+	font-weight: bold;
+}
+.ui-menu-item-detail .detail-group .group-list{
+	line-height: 23px;
+}
+.ui-menu-item-detail .detail-group .group-list a{
+	font-size: 12px;
+	color: #868668;
+	margin-right: 8px;
+	padding-bottom: 5px;
+}
+.ui-menu-item-detail .detail-group .group-list a:after{
+	content: ' |';
+	color: #ddd;
+	padding-left: 8px;
+}
+
+/*回到顶部*/
+.ui-backtop{
+	display: none;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	background: rgba(102, 102, 102, 0.9) url(../img/icon-go-up.png) no-repeat center;
+	position: fixed;
+	bottom: 2px;
+	right: 2px;
+	z-index: 100;
+}
+.ui-backtop:hover{
+    background: rgba(102, 102, 102, 0.9);
+}
+.ui-backtop:hover:after{
+	content: '回到顶部';
+	line-height: 20px;
+	display: block;
+	text-align: center;
+}
+
+/*边栏轮播图*/
+.ui-slider{
+    width: 544px;
+    height: 414px;
+    /*相对定位*/
+    position: relative;
+    overflow: hidden;
+}
+.ui-slider-wrap{
+	/*设置这么大的宽度，目的是让轮播图横着滚动*/
+	width: 99999px;
+	height: 414px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*设置transition，目的是让图片轮播的时候，能看出横向滑动的效果*/
+    transition: all 0.5s;
+}
+.ui-slider-wrap .item{
+	display: block;
+	width: 544px;
+	height: 414px;
+	/*设置浮动，目的是让图与图之间没有空隙*/
+	float: left;
+}
+.ui-slider-arrow{
+	width: 544px;
+	height: 40px;
+	/*相对于.ui-slider的绝对定位*/
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+}
+.ui-slider-arrow .item-left,.ui-slider-arrow .item-right{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    /*若设置left属性，就相当于给右箭头也设置了，会导致右箭头没有效果*/
+    /*left: 0;*/
+    background: url(../img/ui-slider-arrow.png) no-repeat;
+}
+.ui-slider-arrow .item-right{
+    right: 0;
+    /*也可以写成：background-position: -40px 0;*/
+    transform: rotate(180deg);
+}
+.ui-slider-process{
+	width: 544px;
+	height: 12px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+}
+.ui-slider-process .p-item{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/ui-slider-process.png) no-repeat;
+}
+.ui-slider-process .item_click{
+	background-position: -23px 0;
+}
+.ui-slider-process .p-item:hover{
+    background-position: -23px 0;
+}
+
+
+
+
+
+
+
+
+
+
