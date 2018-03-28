@@ -1,11 +1,11 @@
 /*清除默认边距*/
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 /*通用样式：水平居中*/
 .wrap{
-	width: 1000px;
+    width: 1000px;
     margin: 0 auto;
     position: relative;
 }
@@ -29,8 +29,8 @@
 }
 /*导航*/
 .nav{
-	height: 36px;
-	background-color: #60bff2;
+    height: 36px;
+    background-color: #60bff2;
 }
 /*边栏*/
 .banner{
@@ -55,11 +55,11 @@
 }
 /*帮助*/
 .banner-help{
-	width: 250px;
-	height: 146px;
-	background-color: #ccc;
-	margin-top: 12px;
-	float: right;
+    width: 250px;
+    height: 146px;
+    background-color: #ccc;
+    margin-top: 12px;
+    float: right;
 }
 /*主要内容*/
 .content{
@@ -67,28 +67,28 @@
 }
 /*内容导航*/
 .content-tab{
-	width: 742px;
-	height: 490px;
-	background-color: #ccc;
-	float: left;
+    width: 742px;
+    height: 490px;
+    background-color: #ccc;
+    float: left;
 }
 /*新闻摘要*/
 .content-news,.content-close{
-	width: 248px;
-	height: 236px;
-	border: 1px solid #ccc;
-	float: right;
+    width: 248px;
+    height: 236px;
+    border: 1px solid #ccc;
+    float: right;
 }
 /*停诊新闻*/
 .content-close{
-	margin-top: 12px;
-	border-color: red;
+    margin-top: 12px;
+    border-color: red;
 }
 /*脚部*/
 .footer{
-	height: 70px;
-	padding: 25px 0;
-	background-color: #eceef2;
+    height: 70px;
+    padding: 25px 0;
+    background-color: #eceef2;
 }
 
 

@@ -1,23 +1,23 @@
 /*清除默认边距*/
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /*公共样式*/
 a{
-	text-decoration: none;
+    text-decoration: none;
 }
 select,input{
-	border: none;
-	outline: none;
+    border: none;
+    outline: none;
 }
 
 /*顶部*/
 .top{
-	line-height: 20px;
-	font-size: 13px;
-	color: #868686;
+    line-height: 20px;
+    font-size: 13px;
+    color: #868686;
 }
 .top .call{
     background: url(../img/icon-call.png) no-repeat center left;
@@ -30,25 +30,25 @@ select,input{
     float: right;
 }
 .top .welcome a{
-	color: #2da5e1;
-	padding-left: 10px;
+    color: #2da5e1;
+    padding-left: 10px;
 }
 
 /*头部*/
 .header .logo{
-	display: inline-block;
-	width: 403px;
-	height: 74px;
-	padding: 9px 0;
+    display: inline-block;
+    width: 403px;
+    height: 74px;
+    padding: 9px 0;
 }
 .header .search{
-	display: inline-block;
-	width: 326px;
-	height: 38px;
-	background-color: orange; 
-	position: absolute;
-	right: 0;
-	top: 29px;
+    display: inline-block;
+    width: 326px;
+    height: 38px;
+    background-color: orange; 
+    position: absolute;
+    right: 0;
+    top: 29px;
 }
 
 /*导航*/
@@ -63,7 +63,7 @@ select,input{
     min-width: 80px;
 }
 .nav a:hover{
-	color: #d7f3ff;
+    color: #d7f3ff;
 }
 .nav .menu{
     width: 130px;
@@ -72,20 +72,20 @@ select,input{
     position: relative;
 }
 .nav .menu .menu-list{
-	width: 100%;
-	height: 423px;
-	background-color: #1fa4f0;
+    width: 100%;
+    height: 423px;
+    background-color: #1fa4f0;
     position: absolute;
     left: 0;
     top: 36px;
 }
 .nav .right{
-	float: right;
+    float: right;
 }
 
 /*边栏*/
 .banner-search{
-	background-color: #fafafa;
+    background-color: #fafafa;
 }
 .banner-search .capition,.banner-help .capition{
     height: 22px;
@@ -100,23 +100,23 @@ select,input{
     padding-left: 28px;
 }
 .banner-search .capition .text{
-	color: #fec009;
+    color: #fec009;
     background: url(../img/icon-help.png) no-repeat 0 0;
 }
 .banner-search .form{
     height: 150px;
 }
 .banner-search .form .line{
-	text-align: center;
-	padding-bottom: 9px;
+    text-align: center;
+    padding-bottom: 9px;
 }
 .banner-search .form .line select{
-	width: 170px;
-	height: 26px;
-	line-height: 26px;
-	font-size: 12px;
-	color: #666;
-	padding: 2px 0;
+    width: 170px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #666;
+    padding: 2px 0;
     border: 1px solid #dcdddd;
     /*z-index是为了在交互的时候不挡住？？？*/
     z-index: 0;
@@ -126,36 +126,36 @@ select,input{
     height: 32px;
 }
 .banner-search .submit .button{
-	width: 108px;
-	height: 32px;
-	background-color: #fecd09;
-	font-size: 14px;
-	color: #fff;
-	border-radius: 3px;
+    width: 108px;
+    height: 32px;
+    background-color: #fecd09;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 3px;
 }
 .banner-help{
-	background-color: #fafafa;
+    background-color: #fafafa;
 }
 .banner-help .capition .text{
-	color: #00b3ea;
+    color: #00b3ea;
     background: url(../img/icon-help.png) no-repeat 0 -23px;
 }
 .banner-help .link{
-	display: inline-block;
-	width: 86px;
-	height: 26px;
-	line-height: 26px;
-	text-align: center;
-	padding: 0 0 8px 26px;
+    display: inline-block;
+    width: 86px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 0 8px 26px;
 }
 .banner-help .link a{
-	color: #00b3ea;
-	font-size: 14px;
+    color: #00b3ea;
+    font-size: 14px;
 }
 
 /*内容*/
 .content-tab{
-	background: none;
+    background: none;
 }
 .content-tab .capition{
     height: 34px;
@@ -163,12 +163,12 @@ select,input{
     background-color: #f4f6fa;
 }
 .content-tab .capition .item{
-	display: block;
-	width: 112px;
-	height: 34px;
-	color: #00b3ea;
-	text-align: center;
-	float: left;
+    display: block;
+    width: 112px;
+    height: 34px;
+    color: #00b3ea;
+    text-align: center;
+    float: left;
 }
 /*特殊样式：点击才改变样式*/
 .content-tab .capition .item_click{
@@ -180,10 +180,10 @@ select,input{
     height: 452px;
 }
 .content-tab .container .item-capition{
-	height: 26px;
-	line-height: 26px;
-	padding: 8px;
-	border-bottom: 1px solid #f4f6fa;
+    height: 26px;
+    line-height: 26px;
+    padding: 8px;
+    border-bottom: 1px solid #f4f6fa;
 }
 .content-tab .item-capition-name{
     display: block;
@@ -201,19 +201,19 @@ select,input{
 }
 /*医院列表*/
 .content-tab .item-content .ic-list .icl-item{
-	float: left;
-	width: 216px;
-	height: 102px;
-	padding: 0 20px 10px 120px;
-	font-size: 12px;
-	position: relative;
+    float: left;
+    width: 216px;
+    height: 102px;
+    padding: 0 20px 10px 120px;
+    font-size: 12px;
+    position: relative;
 }
 .content-tab .item-content .ic-list .icl-item img{
-	width: 110px;
-	height: 98px;
-	position: absolute;
-	left: 0;
-	top: 0;
+    width: 110px;
+    height: 98px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .content-tab .item-content .ic-list .item-name{
     color: #036eb7;
@@ -222,15 +222,15 @@ select,input{
     padding-top: 13px;
 }
 .content-tab .item-content .ic-list .item-level{
-	float: right;
-	color: #979797;
-	font-size: 12px;
+    float: right;
+    color: #979797;
+    font-size: 12px;
 }
 .content-tab .item-content .ic-list .item-phone,
 .content-tab .item-content .ic-list .item-address{
-	color: #666;
-	line-height: 18px;
-	padding-bottom: 4px;
+    color: #666;
+    line-height: 18px;
+    padding-bottom: 4px;
 }
 /*医院文案列表*/
 .content-tab .item-content .ic-textlist .ict-item{
@@ -251,7 +251,7 @@ select,input{
     font-size: 12px;
 }
 .content-tab .item-content .ic-more{
-	padding-top: 5px; 
+    padding-top: 5px; 
     line-height: 55px;
     text-align: center;
     font-size: 14px;
@@ -271,23 +271,23 @@ select,input{
     font-size: 15px;
 }
 .content-news .capition{
-	color: #fec009;
+    color: #fec009;
 }
 .content-news .capition .more,.content-close .capition .more{
-	float: right;
-	padding-right: 22px;
-	color: #868686;
-	font-size: 12px;
+    float: right;
+    padding-right: 22px;
+    color: #868686;
+    font-size: 12px;
 }
 .content-news .list{
-	background: url(../img/list-yellow.jpg) 17px 20px no-repeat;
-	font-size: 12px;
-	padding: 15px 20px 13px 35px;
-	line-height: 29px;
+    background: url(../img/list-yellow.jpg) 17px 20px no-repeat;
+    font-size: 12px;
+    padding: 15px 20px 13px 35px;
+    line-height: 29px;
 }
 .content-news .list .link{
-	display: block;
-	color: #969696;
+    display: block;
+    color: #969696;
 }
 .content-close{
     background-color: #fff;
@@ -297,21 +297,21 @@ select,input{
     color: #4ab4ed;
 }
 .content-close .list{
-	background: url(../img/list-blue.jpg) 17px 20px no-repeat;
-	font-size: 12px;
-	padding: 15px 20px 13px 35px;
-	line-height: 29px;
+    background: url(../img/list-blue.jpg) 17px 20px no-repeat;
+    font-size: 12px;
+    padding: 15px 20px 13px 35px;
+    line-height: 29px;
 }
 .content-close .list .link{
-	display: block;
-	color: #969696;
+    display: block;
+    color: #969696;
 }
 
 /*脚部*/
 .footer{
-	line-height: 70px;
-	color: #666;
-	font-size: 12px;
+    line-height: 70px;
+    color: #666;
+    font-size: 12px;
     text-align: center;
 }
 
