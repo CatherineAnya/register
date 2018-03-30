@@ -9,5 +9,5 @@
 
 技术栈：HTML、CSS、jQuery
 
-# 效果展示
-
+# 部分效果展示
+![image](https://user-images.githubusercontent.com/26202472/38121684-84690a64-3403-11e8-8226-b7d93ace50e9.png)
