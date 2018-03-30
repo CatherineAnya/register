@@ -11,3 +11,6 @@
 
 # 部分效果展示
 ![image](https://user-images.githubusercontent.com/26202472/38121684-84690a64-3403-11e8-8226-b7d93ace50e9.png)
+
+![image](https://user-images.githubusercontent.com/26202472/38121816-1d13df8c-3404-11e8-84b5-0a0960b61730.png)
+
